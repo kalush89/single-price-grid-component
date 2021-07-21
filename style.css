@@ -130,6 +130,10 @@ button {
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
+button:hover {
+    background: hsl(71, 64%, 52%);
+}
+
 /**
  * Remove the inner border and padding in Firefox.
  */
