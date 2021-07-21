@@ -150,6 +150,14 @@ button::-moz-focus-inner,
     font-size: 0.9rem;
 }
 
+.attribution {
+    font-size: 0.8rem;  
+}
+.attribution>a {
+    color: hsl(179, 62%, 43%);
+    text-decoration: none;
+}
+
 /*Desktop responsive code*/
 @media screen and (min-width: 631px) {
     .container {
