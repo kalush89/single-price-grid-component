@@ -42,21 +42,32 @@ Users should be able to:
 - Mobile-first workflow
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Learnt how to create a layout and centralise flex items in Flexbox
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    max-width: 436px;
+    margin: auto;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+Learnt how to write a media query and implement mobile first workflow
+```css
+/*Desktop responsive code*/
+@media screen and (min-width: 631px) {
+    .container {
+        max-width: 680px;
+
+    }
+
+    .left {
+        padding: 20px 30px;
+        width: 100%;
+        border-radius: 0 0 0 7px;
+    }
 }
 ```
 
