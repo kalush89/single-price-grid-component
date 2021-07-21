@@ -12,8 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    flex-basis: auto;
-    max-width: 400px;
+    max-width: 436px;
     margin: auto;
 }
 
@@ -25,10 +24,10 @@ body {
     align-items: center;
     background: white;
     border: none;
-    margin: 50px;
+    margin: 30px;
     border-radius: 7px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .col-1 {
@@ -44,7 +43,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     color: white;
-    
+
 }
 
 .left {
@@ -66,7 +65,8 @@ body {
     padding: 10px 20px 20px 20px;
 }
 
-h2, h3 {
+h2,
+h3 {
     margin-bottom: 2px;
 }
 
@@ -84,12 +84,13 @@ li {
 
 h2 {
     color: hsl(179, 62%, 43%);
-    
+
 }
 
 #promo {
-    color: hsl(71, 73%, 54%); 
+    color: hsl(71, 73%, 54%);
 }
+
 p {
     line-height: 1.8;
     font-size: small;
@@ -100,19 +101,21 @@ p {
     font-weight: 700;
     color: #868c8f;
 }
- .price {
-     font-size: 1.8rem;
-     font-weight: 700;
-     margin-right: 10px;
- }
 
- .duration {
-    color: #e2e5e7; 
+.price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.duration {
+    color: #e2e5e7;
     font-size: 1rem;
- }
+}
 
 button {
-    background-color: hsl(71, 73%, 54%); /* Green */
+    background-color: hsl(71, 73%, 54%);
+    /* Green */
     display: block;
     margin: 5px 0;
     padding: 10px 30px;
@@ -124,10 +127,10 @@ button {
     text-decoration: none;
     font-weight: 600;
     border-radius: 5px;
-    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2);
-  }
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+}
 
- /**
+/**
  * Remove the inner border and padding in Firefox.
  */
 
@@ -135,19 +138,19 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+    border-style: none;
+    padding: 0;
 }
 
-  .full-access {
-      font-size: 0.9rem;
-  }
+.full-access {
+    font-size: 0.9rem;
+}
 
 /*Desktop responsive code*/
 @media screen and (min-width: 631px) {
     .container {
         max-width: 680px;
-        
+
     }
 
     .left {
@@ -166,7 +169,7 @@ button::-moz-focus-inner,
     .col-1 {
         padding: 20px 30px;
     }
-    
+
     .col-2 {
         flex-direction: row;
     }
@@ -175,5 +178,5 @@ button::-moz-focus-inner,
         width: 95%;
         padding: 15px 30px;
     }
-   
+
 }
