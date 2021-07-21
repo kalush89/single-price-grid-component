@@ -13,7 +13,7 @@ body {
     align-items: center;
     flex-wrap: nowrap;
     max-width: 436px;
-    margin: auto;
+    margin: 3.5em auto;
 }
 
 .card {
