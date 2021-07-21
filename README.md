@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kalush89/single-price-grid-component)
-- Live Site URL: [Add live site URL here](https://kalush89.github.io/single-price-grid-component/)
+- Solution URL: [https://github.com/kalush89/single-price-grid-component](https://github.com/kalush89/single-price-grid-component)
+- Live Site URL: [https://kalush89.github.io/single-price-grid-component/](https://kalush89.github.io/single-price-grid-component/)
 
 ## My process
 
