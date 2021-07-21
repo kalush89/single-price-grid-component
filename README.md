@@ -42,7 +42,7 @@ Users should be able to:
 - Mobile-first workflow
 ### What I learned
 
-Learnt how to create a layout and centralise flex items in Flexbox
+Learnt how to create a layout in Flexbox
 ```css
 .container {
     display: flex;
